@@ -33,3 +33,18 @@ if (opcion === "piedra"){
 }
 */
 
+
+/*
+let nombre = prompt("Ingrese su nombre");
+
+if ((nombre != "") && (nombre === "andres" || nombre === "ANDRES")) {
+ //    TRUE                  TRUE                   FALSE
+ alert("Hola andres");
+} else {
+    alert("Nombre no identificado");
+}
+*/
+let nombre = "camila";
+
+console.log ("Hola " + nombre);
+console.log (`Hola ${nombre}`);
